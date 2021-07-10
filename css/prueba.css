@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/*-- titulo de página */
+.descripcion, #titulo_main, .secciones {
+  align-items: center;
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.5;
+  margin: auto; }
+  .descripcion h2, #titulo_main h2, .secciones h2 {
+    color: rgba(255, 0, 0, 0.61);
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px; }
+
+/* Incio CSS Galeria de imagenes con bootstrap*/
+#titulo_main {
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.144); }
+
+#galeria .col-lg-4 {
+  padding: 25px; }
+
+#galeria img {
+  width: 80%;
+  height: 300px;
+  background-color: #830000; }
+
+#galeria img:hover {
+  transform: scale(1.2);
+  transition: all 800ms;
+  border: 5px outset #830000; }
+
+/* FIN CSS Galeria de imagenes con bootstrap*/
+/* Inicio de secccion: MAS SOBRE NOSOTROS*/
+.secciones {
+  padding-top: 50px; }
+
+#secciones {
+  background-color: #7c0000;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 120px; }
+  #secciones img {
+    width: 30%;
+    height: 30%;
+    align-items: center;
+    margin: 0px auto;
+    padding-top: 20px; }
+
+/* Fin de secccion: MAS SOBRE NOSOTROS*/
+/* Inicio de sección : La Chacra */
+.chacra {
+  margin: 100px;
+  text-align: center;
+  font-size: 20px; }
+  .chacra h2 {
+    text-decoration: underline;
+    padding-top: 0px; }
+  .chacra img {
+    float: right;
+    width: 35%;
+    margin-top: 10px;
+    margin: 25px;
+    padding: 15px;
+    border-color: #830000;
+    background-color: rgba(255, 0, 0, 0.144);
+    border-style: groove; }
+
+.chacra:hover {
+  transform: scale(1.05);
+  transition: all 2s; }
+
+/* Fin de sección : La Chacra */
+/* Inicio de FOOTER */
+footer {
+  padding-top: 50px;
+  background-color: white;
+  line-height: 24px; }
+  footer section {
+    padding: 16px; }
+  footer .copyrights {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px; }
+
+/* Fin de FOOTER */

@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+/* CUERPO */
+body{
+    /* font-family: 'Chakra Petch', sans-serif; */
+    font-family: 'Mate SC', serif;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* BARRA DE NAV */
+.navbar{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+.navbar li:hover{
+    transform: scale(1.2);
+    transition: all 600ms;
+}
+
+
+.logo{  
+    width: 130px;
+    cursor: pointer;
+}
+
+.logo_principal{
+    width: 130px;
+    cursor: pointer;
+    transform: translateX(40px);
+    transition-duration: 3s; 
+}
+
+.logo_principal:hover{
+    transform: scale(1.2);
+    transition: all 600ms;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration:none ;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.navbar ul li::before{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: rgb(163, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover:before{
+    width: 100%;
+}
+
+
+
+
+.imagen_paseo img{
+    padding-top: 100px;
+    width: 15%; 
+    height: 50%;
+    display: flex;
+    margin: 80px;
+    margin-top: 20px;
+}
+
+.paseo:hover{
+    transform: translate(1000px);
+    transition-duration: 4s; 
+}
+
+
+.bloques{
+    column-count: 4;
+    column-gap: 30px;
+    column-rule: 1px solid black;
+    text-align: center;
+    margin: 30px auto;
+    display: flex;
+    
+}
+
+table{
+    margin: 150px auto;
+}
+
+th, td{
+    border:solid 1px black;
+    padding: 30px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+.mantenimiento{
+    height: 0;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* CONTACTO */
+
+#tarjetas{
+    display: flex;
+    justify-content: center;
+    background: #9100006b;
+}
+
+.tarjeta img{
+    width: 100%;
+    padding: 15px;
+}
+
+.tarjeta{
+    width: 30%;
+    margin: 30px;
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 11px 0px #00000030;
+}
+
+.nombrePersona{
+    font-size: 20px;
+    color: rgb(136, 135, 135);
+}
+
+.profesion{
+    color:rgb(122, 122, 122)
+}
+
+.descPersona{
+    line-height: 30px;
+    color: rgb(44, 44, 44);
+    padding: 15px;
+}
+
+/* DONACION */
+
+#donacion{
+    display: flex;
+    justify-content: center;
+    background: #9100006b;
+}
+
+.donacion img{
+    width: 100%;
+    padding: 15px;
+}
+
+.donacion_brou{
+    width: 40%;
+    margin: 30px;
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 11px 0px #00000030;
+}
+
+.donacion_titulo{
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.donacion_moneda{
+    font-size: 20px;
+    padding: 15px;
+}
+
+.donacion_materiales{
+    width: 40%;
+    margin: 30px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 1px 1px 11px 0px #00000030;
+}
+
+ul.lista_donacion{
+    list-style-type:square;
+    list-style:square inside;
+}
+
+/* ADOPCIONES */
+
+.adopcion_texto{
+    
+   font-size: 18px;
+   font-weight: lighter;
+   border: 1.5px solid rgba(165, 0, 0, 0.466);
+   margin: 30px;
+   padding: 30px;
+}
+
+.fotoperro {
+    width: 92%; 
+    
+}
+
+.foto_portada_3{
+    width: 35%; 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-color: black;
+    border-style: groove;
+}
+.foto_portada_4{
+    width: 35%; 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-color: black;
+    border-style: groove;
+}
+
+
+
+.fotogato{
+    width: 40%; 
+    display:block;
+    margin:auto;
+    margin-bottom: 100px;
+    border-color: black;
+    border-style: groove;
+}
+
+.adopciones_solicitud{
+    width: 100%;
+    font-size: 30px;
+    margin: auto; 
+    align-items: center;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    line-height: 1.5;
+    
+}
+
+.adopciones_solicitud_desc{
+    margin:auto;
+    margin-bottom:100px;
+    width: 30%;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 1px 1px 11px 0px #000000;
+    text-align: center;
+}
+
+.slider h2{
+    margin-top: 100px;
+}
+
+#form{
+    border-color: rgb(201, 201, 201);
+    border-style:double;
+}
+
+.carousel {
+    height: 50%; 
+    width: 60%; 
+    padding: 50px;
+    margin: auto;
+}
